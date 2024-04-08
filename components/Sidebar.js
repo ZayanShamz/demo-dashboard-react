@@ -64,7 +64,7 @@ export default function Sidebar({ children }) {
                     </div>
                 </div>
             </div>
-            <aside className={`h-screen ${expanded ? "flex" : "hidden"} ${expanded && "absolute top-0 left-0"} md:flex`}>
+            <aside className={`h-screen ${expanded ? "flex" : "hidden"} ${expanded && "absolute top-0 left-0 z-10"} md:flex`}>
                 <nav className="h-full flex flex-col bg-white shadow-sm rounded-2xl md:rounded-none">
                     <div className="p-4 pb-2 flex justify-between items-center  md:mt-3">
                         <div className={`flex space-x-3   ${expanded ? "flex md:text-4xl" : "hidden"}`}>
